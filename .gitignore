@@ -1,0 +1,13 @@
+# Rust build output
+**/target/
+
+# Backup files
+**/*.rs.bk
+
+# OS/editor noise
+.DS_Store
+Thumbs.db
+.vscode/
+# Local compiled binaries/debug symbols
+**/*.exe
+**/*.pdb
