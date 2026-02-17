@@ -13,8 +13,14 @@ fn main() {
     println!("The value of y is: {y}");
 
     // How to modify elements in a MUTABLE tuple.
-    let mut x2: (i32, i32) = (1, 2);
-    x2.0 = 0;
-    x2.1 += 5;
+    let mut my_mut_tuple: (i32, i32) = (1, 2);
 
+    println!("{}", my_mut_tuple.0);
+    println!("{}", my_mut_tuple.1);
+
+    my_mut_tuple.0 = 0;
+    my_mut_tuple.1 += 5;
+
+    println!("{}", my_mut_tuple.0);
+    println!("{}", my_mut_tuple.1);
 }
